@@ -1,0 +1,69 @@
+{
+  "$schema": "https://www.schemastore.org/package.json",
+  "name": "@seoyunnie/oxc-config",
+  "version": "1.0.0",
+  "description": "Seoyun's shared base configurations for Oxlint and Oxfmt.",
+  "keywords": [
+    "oxc",
+    "oxfmt",
+    "oxfmt-config",
+    "oxlint",
+    "oxlint-config"
+  ],
+  "homepage": "https://github.com/seoyunnie/oxc-config#readme",
+  "bugs": {
+    "url": "https://github.com/seoyunnie/oxc-config/issues"
+  },
+  "license": "MIT",
+  "author": "Seoyun",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seoyunnie/oxc-config.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    "./oxfmt": "./src/oxfmt.ts",
+    "./oxlint": "./src/oxlint/index.ts",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public",
+    "exports": {
+      "./oxfmt": "./dist/oxfmt.js",
+      "./oxlint": "./dist/oxlint.js",
+      "./package.json": "./package.json"
+    },
+    "provenance": true
+  },
+  "scripts": {
+    "build": "tsdown",
+    "fmt": "oxfmt",
+    "fmt:check": "pnpm run fmt --check",
+    "lint": "oxlint",
+    "lint:fix": "pnpm run lint --fix"
+  },
+  "devDependencies": {
+    "@tsconfig/node-ts": "^23.6.4",
+    "@tsconfig/node24": "^24.0.4",
+    "@tsconfig/recommended": "^1.0.13",
+    "@tsconfig/strictest": "^2.0.8",
+    "@types/node": "^24.12.2",
+    "oxfmt": "^0.44.0",
+    "oxlint": "^1.59.0",
+    "oxlint-tsgolint": "^0.20.0",
+    "tsdown": "^0.21.7",
+    "typescript": "^6.0.2"
+  },
+  "peerDependencies": {
+    "oxfmt": ">=0.43.0",
+    "oxlint": ">=1.58.0",
+    "oxlint-tsgolint": ">=0.19.0"
+  },
+  "engines": {
+    "node": ">=24.11"
+  },
+  "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319"
+}
