@@ -62,6 +62,7 @@ export const baseConfig: OxlintConfig = {
     "eslint/require-await": "off",
     "eslint/sort-vars": "off",
     "import/max-dependencies": "off",
+    "typescript/prefer-readonly-parameter-types": "off",
 
     /* Restriction */
     "eslint/no-empty": "error", //                                                               @eslint/js            - Recommended
