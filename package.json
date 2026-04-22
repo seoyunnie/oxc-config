@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.schemastore.org/package.json",
   "name": "@seoyunnie/oxc-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Seoyun's shared base configurations for Oxlint and Oxfmt.",
   "keywords": [
     "oxc",
