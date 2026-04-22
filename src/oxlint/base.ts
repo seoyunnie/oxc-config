@@ -20,6 +20,7 @@ export const baseConfig: OxlintConfig = {
     "eslint/require-await": "off",
     "eslint/sort-vars": "off",
     "import/max-dependencies": "off",
+    "typescript/prefer-readonly-parameter-types": "off",
 
     /* Style */
     "eslint/capitalized-comments": "off",
