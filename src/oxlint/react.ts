@@ -25,7 +25,7 @@ export const reactConfig: OxlintConfig = {
         "react/jsx-props-no-spreading": "off",
 
         /* Pedantic */
-        "react/jsx-no-target-blank": ["warn", { warnOnSpreadAttributes: true }],
+        "react/jsx-no-target-blank": ["warn", { forms: true, warnOnSpreadAttributes: true }],
 
         /* Restriction */
         "react/button-has-type": "error",
