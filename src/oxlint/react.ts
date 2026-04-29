@@ -15,6 +15,7 @@ export const reactConfig: OxlintConfig = {
         "react/no-string-refs": "off",
 
         /* Suspicious */
+        "import/no-absolute-path": "off",
         "import/no-unassigned-import": ["warn", { allow: ["**/*.css"] }],
         "react/react-in-jsx-scope": "off",
 
