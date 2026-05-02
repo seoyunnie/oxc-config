@@ -1,2 +1,5 @@
-# Dependency Resolution
-minimumReleaseAge: 1440
+# CLI Settings
+pmOnFail: ignore
+
+# Node.js Settings
+runtimeOnFail: ignore
