@@ -10,6 +10,7 @@ export const baseConfig: OxlintConfig = {
 
     /* Style */
     "eslint/capitalized-comments": "off",
+    "eslint/func-name-matching": ["warn", "always", { considerPropertyDescriptor: true }],
     "eslint/func-names": ["warn", "as-needed"],
     "eslint/func-style": ["warn", "declaration", { allowArrowFunctions: true, allowTypeAnnotation: true }],
     "eslint/grouped-accessor-pairs": ["warn", "getBeforeSet", { enforceForTSTypes: true }],
