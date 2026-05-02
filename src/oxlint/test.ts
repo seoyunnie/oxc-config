@@ -13,7 +13,11 @@ export const testConfig: OxlintConfig = {
 
         /* Style */
         "eslint/no-magic-numbers": "off",
+        "vitest/max-expects": "off",
+        "vitest/max-nested-describe": "off",
+        "vitest/no-hooks": "off",
         "vitest/no-importing-vitest-globals": "off",
+        "vitest/no-large-snapshots": "off",
         "vitest/prefer-called-times": "off",
         "vitest/prefer-to-be-falsy": "off",
         "vitest/prefer-to-be-truthy": "off",
