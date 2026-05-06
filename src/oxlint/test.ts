@@ -10,6 +10,7 @@ export const testConfig: OxlintConfig = {
       rules: {
         /* Correctness */
         "vitest/consistent-each-for": "off",
+        "vitest/valid-title": ["error", { allowArguments: true }],
 
         /* Style */
         "eslint/no-magic-numbers": "off",
