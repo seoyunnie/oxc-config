@@ -207,18 +207,9 @@ importers:
 
   .:
     devDependencies:
-      '@tsconfig/node-ts':
-        specifier: ^23.6.4
-        version: 23.6.4
-      '@tsconfig/node24':
-        specifier: ^24.0.4
-        version: 24.0.4
-      '@tsconfig/recommended':
-        specifier: ^1.0.13
-        version: 1.0.13
-      '@tsconfig/strictest':
-        specifier: ^2.0.8
-        version: 2.0.8
+      '@tsconfig/bases':
+        specifier: ^1.0.24
+        version: 1.0.24
       '@types/node':
         specifier: ^24.12.4
         version: 24.12.4
@@ -676,17 +667,8 @@ packages:
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
-  '@tsconfig/node-ts@23.6.4':
-    resolution: {integrity: sha512-37BMJvNQZ+vTgd1xG2TGBkJ6ENeT4eO4Wh2CHrnn0IwH7ybLFCzh4Uc//kc7UIvqiRac4uGdIc1meKOjMSlKzw==}
-
-  '@tsconfig/node24@24.0.4':
-    resolution: {integrity: sha512-2A933l5P5oCbv6qSxHs7ckKwobs8BDAe9SJ/Xr2Hy+nDlwmLE1GhFh/g/vXGRZWgxBg9nX/5piDtHR9Dkw/XuA==}
-
-  '@tsconfig/recommended@1.0.13':
-    resolution: {integrity: sha512-sySRuBfMKyKO/j2ZAhR8kSembhjuPEV4Ra3AHtmWLq51+iGaudr45crPSzNC5b7/Ctrh9dfUpBuTlYrH6rM58Q==}
-
-  '@tsconfig/strictest@2.0.8':
-    resolution: {integrity: sha512-XnQ7vNz5HRN0r88GYf1J9JJjqtZPiHt2woGJOo2dYqyHGGcd6OLGqSlBB6p1j9mpzja6Oe5BoPqWmeDx6X9rLw==}
+  '@tsconfig/bases@1.0.24':
+    resolution: {integrity: sha512-yoVS2/GRAaV/PHr9fi6kTKAtCVOXuJWcCKezks6TfmPnx29fLrv4IK+qpAOoWYBU4hz7x/p9Evqj+DAqAlGf7w==}
 
   '@tybys/wasm-util@0.10.2':
     resolution: {integrity: sha512-RoBvJ2X0wuKlWFIjrwffGw1IqZHKQqzIchKaadZZfnNpsAYp2mM0h36JtPCjNDAHGgYez/15uMBpfGwchhiMgg==}
@@ -1154,13 +1136,7 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.1': {}
 
-  '@tsconfig/node-ts@23.6.4': {}
-
-  '@tsconfig/node24@24.0.4': {}
-
-  '@tsconfig/recommended@1.0.13': {}
-
-  '@tsconfig/strictest@2.0.8': {}
+  '@tsconfig/bases@1.0.24': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:
