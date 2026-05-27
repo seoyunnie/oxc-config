@@ -2,10 +2,10 @@
   "$schema": "https://www.schemastore.org/tsconfig.json",
 
   "extends": [
-    "@tsconfig/recommended/tsconfig.json",
-    "@tsconfig/strictest/tsconfig.json",
-    "@tsconfig/node24/tsconfig.json",
-    "@tsconfig/node-ts/tsconfig.json"
+    "@tsconfig/bases/recommended",
+    "@tsconfig/bases/strictest",
+    "@tsconfig/bases/node24",
+    "@tsconfig/bases/node-ts"
   ],
 
   "compilerOptions": {
