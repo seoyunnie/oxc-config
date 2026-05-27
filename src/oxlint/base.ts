@@ -35,6 +35,7 @@ export const baseConfig: OxlintConfig = {
     ],
     "eslint/no-ternary": "off",
     "eslint/prefer-const": ["warn", { destructuring: "all", ignoreReadBeforeAssign: true }],
+    "eslint/prefer-regex-literals": ["warn", { disallowRedundantWrapping: true }],
     "eslint/sort-imports": ["warn", { ignoreDeclarationSort: true }],
     "eslint/sort-keys": "off",
     "import/consistent-type-specifier-style": "off",
