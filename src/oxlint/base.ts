@@ -17,6 +17,7 @@ export const baseConfig: OxlintConfig = {
     "eslint/id-length": "off",
     "eslint/id-match": "off",
     "eslint/init-declarations": "off",
+    "eslint/logical-assignment-operators": ["warn", "always", { enforceForIfStatements: true }],
     "eslint/max-params": "off",
     "eslint/max-statements": "off",
     "eslint/no-continue": "off",
