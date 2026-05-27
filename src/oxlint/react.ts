@@ -25,6 +25,9 @@ export const reactConfig: OxlintConfig = {
         "react/jsx-max-depth": "off",
         "react/jsx-props-no-spreading": "off",
 
+        /* Perf */
+        "react/no-object-type-as-default-prop": "off",
+
         /* Pedantic */
         "react/jsx-no-target-blank": ["warn", { forms: true, warnOnSpreadAttributes: true }],
 

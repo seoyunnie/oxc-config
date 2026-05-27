@@ -15,6 +15,7 @@ export const baseConfig: OxlintConfig = {
     "eslint/func-style": ["warn", "declaration", { allowArrowFunctions: true, allowTypeAnnotation: true }],
     "eslint/grouped-accessor-pairs": ["warn", "getBeforeSet", { enforceForTSTypes: true }],
     "eslint/id-length": "off",
+    "eslint/id-match": "off",
     "eslint/init-declarations": "off",
     "eslint/max-params": "off",
     "eslint/max-statements": "off",
