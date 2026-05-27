@@ -28,6 +28,9 @@ export const reactConfig: OxlintConfig = {
         /* Pedantic */
         "react/jsx-no-target-blank": ["warn", { forms: true, warnOnSpreadAttributes: true }],
 
+        /* Perf */
+        "react/no-object-type-as-default-prop": "off",
+
         /* Restriction */
         "react/button-has-type": "error",
         "react/jsx-filename-extension": ["error", { allow: "as-needed", extensions: ["jsx", "tsx"] }],
