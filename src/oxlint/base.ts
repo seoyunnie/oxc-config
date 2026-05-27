@@ -73,6 +73,7 @@ export const baseConfig: OxlintConfig = {
     "eslint/no-empty-function": "error",
     "eslint/no-proto": "error",
     "eslint/no-use-before-define": "error",
+    "eslint/no-regex-spaces": "error", //                                                        @eslint/js            - Recommended
     "eslint/no-sequences": "error",
     "eslint/no-var": "error",
     "import/no-cycle": "error",
@@ -92,12 +93,14 @@ export const baseConfig: OxlintConfig = {
     "typescript/promise-function-async": "error",
     "typescript/use-unknown-in-catch-callback-variable": "error", //                             @typescript-eslint    - Strict
     "unicorn/no-abusive-eslint-disable": "error", //                                             eslint-plugin-unicorn - Unopinionated
+    "unicorn/no-anonymous-default-export": "error", //                                           eslint-plugin-unicorn - Unopinionated
     "unicorn/no-array-for-each": "error", //                                                     eslint-plugin-unicorn - Unopinionated
     "unicorn/no-document-cookie": "error", //                                                    eslint-plugin-unicorn - Unopinionated
     "unicorn/no-length-as-slice-end": "error", //                                                eslint-plugin-unicorn - Unopinionated
     "unicorn/no-process-exit": "error", //                                                       eslint-plugin-unicorn - Unopinionated
     "unicorn/no-useless-error-capture-stack-trace": "error", //                                  eslint-plugin-unicorn - Unopinionated
     "unicorn/prefer-modern-math-apis": "error", //                                               eslint-plugin-unicorn - Unopinionated
+    "unicorn/prefer-module": "error", //                                                         eslint-plugin-unicorn - Unopinionated
     "unicorn/prefer-node-protocol": "error", //                                                  eslint-plugin-unicorn - Unopinionated
     "unicorn/prefer-number-properties": "error", //                                              eslint-plugin-unicorn - Unopinionated
   },
