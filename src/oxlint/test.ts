@@ -23,6 +23,7 @@ export const testConfig: OxlintConfig = {
         "vitest/no-restricted-vi-methods": "off",
         "vitest/prefer-called-times": "off",
         "vitest/prefer-expect-assertions": "off",
+        "vitest/prefer-lowercase-title": ["warn", { ignoreTopLevelDescribe: true }],
         "vitest/prefer-to-be-falsy": "off",
         "vitest/prefer-to-be-truthy": "off",
       },
