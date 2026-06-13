@@ -46,23 +46,23 @@
     "lint:fix": "pnpm run lint --fix"
   },
   "devDependencies": {
-    "@tsconfig/bases": "^1.0.24",
-    "@types/node": "^24.12.4",
-    "oxfmt": "^0.52.0",
-    "oxlint": "^1.67.0",
+    "@tsconfig/bases": "^1.0.25",
+    "@types/node": "^24.13.2",
+    "oxfmt": "^0.54.0",
+    "oxlint": "^1.69.0",
     "oxlint-tsgolint": "^0.23.0",
-    "tsdown": "^0.22.0",
+    "tsdown": "^0.22.2",
     "typescript": "^6.0.3"
   },
   "peerDependencies": {
-    "oxfmt": ">=0.52.0",
-    "oxlint": ">=1.67.0",
+    "oxfmt": ">=0.54.0",
+    "oxlint": ">=1.69.0",
     "oxlint-tsgolint": ">=0.23.0"
   },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "^11.3.0",
+      "version": "^11.6.0",
       "onFail": "error"
     },
     "runtime": {
@@ -74,5 +74,5 @@
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
   },
-  "packageManager": "pnpm@11.3.0+sha512.2c403d6594527287672b1f7056343a1f7c3634036a67ffabfcc2b3d7595d843768f8787148d1b57cf7956c90606bbd192857c363af19e96d2d0ec9ec5741d215"
+  "packageManager": "pnpm@11.6.0+sha512.9a36518224080c6fe5165afdcfe79bfa118c29be703f3f462b1e32efe1e98e47e8750b148e08286250aad4113cc7993ca413c4e2cd447752708c2ee5751bc95f"
 }
