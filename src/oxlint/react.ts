@@ -21,7 +21,7 @@ export const reactConfig: OxlintConfig = {
 
         /* Style */
         "react/jsx-curly-brace-presence": ["warn", { propElementValues: "always" }],
-        "react/jsx-handler-names": ["warn", { checkInlineFunctions: true, checkLocalVariables: true }],
+        "react/jsx-handler-names": ["warn", { checkLocalVariables: true }],
         "react/jsx-max-depth": "off",
         "react/jsx-props-no-spreading": "off",
 
