@@ -88,7 +88,7 @@ export const baseConfig: OxlintConfig = {
     "typescript/no-explicit-any": "error", //                                                    @typescript-eslint    - Recommended
     "typescript/no-import-type-side-effects": "error",
     "typescript/no-invalid-void-type": "error", //                                               @typescript-eslint    - Strict
-    "typescript/no-namespace": "error", //                                                       @typescript-eslint    - Recommended
+    "typescript/no-namespace": ["error", { allowDeclarations: true }], //                        @typescript-eslint    - Recommended
     "typescript/no-non-null-asserted-nullish-coalescing": "error", //                            @typescript-eslint    - Strict
     "typescript/non-nullable-type-assertion-style": "error", //                                  @typescript-eslint    - Stylistic
     "typescript/promise-function-async": "error",
