@@ -47,6 +47,7 @@ export const reactConfig: OxlintConfig = {
     {
       files: ["**/*.tsx"],
 
+      plugins: ["react"],
       rules: {
         /* Correctness */
         "react/jsx-no-undef": "off",
