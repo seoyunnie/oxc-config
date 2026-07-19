@@ -2,7 +2,6 @@ import type { OxfmtConfig } from "oxfmt";
 
 /** The base config for formatting JS and TS files. */
 const config: OxfmtConfig = {
-  objectWrap: "collapse",
   printWidth: 120,
   sortImports: {
     groups: [
