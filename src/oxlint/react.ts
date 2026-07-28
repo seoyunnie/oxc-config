@@ -20,6 +20,7 @@ export const reactConfig: OxlintConfig = {
         "react/react-in-jsx-scope": "off",
 
         /* Style */
+        "react/function-component-definition": ["warn", { unnamedComponents: "arrow-function" }],
         "react/jsx-curly-brace-presence": ["warn", { propElementValues: "always" }],
         "react/jsx-handler-names": ["warn", { checkLocalVariables: true }],
         "react/jsx-max-depth": "off",
