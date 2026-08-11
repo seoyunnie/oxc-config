@@ -5,5 +5,7 @@
   "oxc.fmt.configPath": "oxfmt.config.ts",
   "oxc.tsConfigPath": "tsconfig.json",
 
-  "[json][jsonc][markdown][typescript][yaml]": { "editor.defaultFormatter": "oxc.oxc-vscode" }
+  "[json][jsonc][markdown][typescript][yaml]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  }
 }

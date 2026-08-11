@@ -15,7 +15,9 @@ const config: OxfmtConfig = {
       "unknown",
     ],
   },
-  sortPackageJson: { sortScripts: true },
+  sortPackageJson: {
+    sortScripts: true,
+  },
 };
 
 export default config;
