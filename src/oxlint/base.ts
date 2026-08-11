@@ -3,7 +3,13 @@ import type { OxlintConfig } from "oxlint";
 /** The base config for linting JS and TS files. */
 export const baseConfig: OxlintConfig = {
   plugins: ["eslint", "typescript", "unicorn", "oxc", "import", "node", "promise"],
-  categories: { correctness: "error", suspicious: "warn", style: "warn", perf: "warn", pedantic: "warn" },
+  categories: {
+    correctness: "error",
+    suspicious: "warn",
+    style: "warn",
+    perf: "warn",
+    pedantic: "warn",
+  },
   rules: {
     /* Suspicious */
     "typescript/consistent-return": "off",
