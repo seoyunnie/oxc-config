@@ -57,9 +57,11 @@ export const baseConfig: OxlintConfig = {
     "typescript/no-empty-interface": ["warn", { allowSingleExtends: true }],
     "typescript/unified-signatures": ["warn", { ignoreDifferentlyNamedParameters: true }],
     "unicorn/catch-error-name": ["warn", { ignore: ["^e$", "^err$", "^[a-z_$][A-Za-z0-9_$]*[Ee]rr$"] }],
+    "unicorn/empty-brace-spaces": "off", //  eslint-config-prettier
     "unicorn/max-nested-calls": "off",
-    "unicorn/no-nested-ternary": "off",
+    "unicorn/no-nested-ternary": "off", //   eslint-config-prettier
     "unicorn/no-null": "off",
+    "unicorn/number-literal-case": "off", // eslint-config-prettier
     "unicorn/prefer-ternary": ["warn", "only-single-line"],
     "unicorn/relative-url-style": ["warn", "always"],
     "unicorn/switch-case-braces": ["warn", "avoid"],
