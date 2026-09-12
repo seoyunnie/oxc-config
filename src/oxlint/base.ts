@@ -27,6 +27,7 @@ export const baseConfig: OxlintConfig = {
     "eslint/sort-vars": "off",
     "import/max-dependencies": "off",
     "typescript/prefer-readonly-parameter-types": "off",
+    "typescript/switch-exhaustiveness-check": ["warn", { considerDefaultExhaustiveForUnions: true }],
 
     /* Style */
     "eslint/capitalized-comments": "off",
