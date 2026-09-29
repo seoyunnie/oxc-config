@@ -39,8 +39,10 @@ export const reactConfig: OxlintConfig = {
         "react/no-danger": "error",
         "react/no-react-children": "error", //                                       eslint-plugin-react-x       - Recommended
         "react/no-unknown-property": ["error", { requireDataLowercase: true }], //   eslint-plugin-react         - Recommended
-        "react/prefer-function-component": "error",
         "react/only-export-components": ["error", { allowConstantExport: true }], // eslint-plugin-react-refresh - Vite
+        "react/prefer-function-component": "error",
+        "react/syntax": "error",
+        "react/unsupported-syntax": "error",
       },
     },
 
