@@ -56,6 +56,7 @@ export const baseConfig: OxlintConfig = {
       },
     ],
     "eslint/no-ternary": "off",
+    "eslint/one-var": ["warn", "never"],
     "eslint/prefer-const": ["warn", { destructuring: "all", ignoreReadBeforeAssign: true }],
     "eslint/prefer-regex-literals": ["warn", { disallowRedundantWrapping: true }],
     "eslint/sort-imports": ["warn", { ignoreDeclarationSort: true }],
