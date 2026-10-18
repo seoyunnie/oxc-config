@@ -36,11 +36,11 @@ export const reactConfig: OxlintConfig = {
         /* Restriction */
         "react/button-has-type": "error",
         "react/jsx-filename-extension": ["error", { allow: "as-needed", extensions: ["jsx", "tsx"] }],
-        "react/no-clone-element": "error", //                                        eslint-plugin-react-x       - Recommended
+        "react/no-clone-element": "error", //                                                                       eslint-plugin-react-x       - Recommended
         "react/no-danger": "error",
-        "react/no-react-children": "error", //                                       eslint-plugin-react-x       - Recommended
-        "react/no-unknown-property": ["error", { requireDataLowercase: true }], //   eslint-plugin-react         - Recommended
-        "react/only-export-components": ["error", { allowConstantExport: true }], // eslint-plugin-react-refresh - Vite
+        "react/no-react-children": "error", //                                                                      eslint-plugin-react-x       - Recommended
+        "react/no-unknown-property": ["error", { requireDataLowercase: true }], //                                  eslint-plugin-react         - Recommended
+        "react/only-export-components": ["error", { allowCompoundComponents: true, allowConstantExport: true }], // eslint-plugin-react-refresh - Vite
         "react/prefer-function-component": "error",
         "react/syntax": "error",
         "react/unsupported-syntax": "error",
