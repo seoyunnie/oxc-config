@@ -69,7 +69,6 @@ export const baseConfig: OxlintConfig = {
     "import/no-nodejs-modules": "off",
     "import/prefer-default-export": "off",
     "typescript/consistent-type-exports": ["warn", { fixMixedExportsWithInlineTypeSpecifier: true }],
-    "typescript/method-signature-style": "off",
     "typescript/no-empty-interface": ["warn", { allowSingleExtends: true }],
     "typescript/unified-signatures": ["warn", { ignoreDifferentlyNamedParameters: true }],
     "unicorn/catch-error-name": ["warn", { ignore: ["^e$", "^err$", "^[a-z_$][A-Za-z0-9_$]*[Ee]rr$"] }],
